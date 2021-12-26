@@ -1,0 +1,28 @@
+/**
+ * Simple HTML + CSS horizontal navigation
+ */
+
+.nav {
+  background: #333;
+  margin:0;
+	padding: 0;
+  position: relative;
+}
+.nav li {
+	display: inline-block;
+	list-style: none;
+	margin:0;
+}
+.nav li a {
+	color: #ddd;
+	display: block;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:0.8em;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+.nav li a:hover {
+	background: #d90075;
+	color: #fff;
+}
